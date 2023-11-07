@@ -1,6 +1,6 @@
 h1{
-    color: red;
-    background-color: green;
+    color: lightcoral;
+    background-color: lightgreen;
     text-align: center;
     font-family: Verdana, sans-serif;
 }
@@ -9,6 +9,8 @@ h2{
     color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
+    text-align: center;
+    border: 3px solid lightslategrey;
 }
 
 a{
@@ -22,4 +24,50 @@ ul{
 }
 ol{
     font-weight: bold;
+}
+
+.options{
+    margin: 100px 200px;
+    border: 10px dotted red;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.salmorejo{
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 16px;
+    display: block;
+}
+
+.paella{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 16px;
+    display: block;
+}
+
+.lasagne{
+    background-color: lightseagreen;
+    padding: 20px;
+    margin: 16px;
+    display: block;
+}
+
+.crumble{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    margin: 16px;
+    display: block;
+}
+
+.back{
+    margin: 20px;
+}
+
+img{
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
